@@ -32,7 +32,7 @@ const contactList = [
     imgUrl: "/src/assets/images/icon/04.png",
     imgAlt: "contact icon",
     title: "Our website",
-    desc: "www.shopcart.com",
+    desc: "ecommerce-react-js-b1449.web.app",
   },
 ];
 
