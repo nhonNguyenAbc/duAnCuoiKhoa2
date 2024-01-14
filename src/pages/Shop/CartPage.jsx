@@ -141,7 +141,7 @@ const CartPage = () => {
                   />
                   <input type="submit" value="Apply Coupon" />
                 </form>
-                <form className="cart-checkout" action="/">
+                <form className="cart-checkout" action="/cart-page">
                   <input type="submit" value="Update Cart" />
                   {/* <Link to="/check-out"><input type="submit" value="Proceed to Checkout" /></Link> */}
                   <div>

@@ -1,10 +1,7 @@
-/* eslint-disable react/prop-types */
-
 import { Link } from "react-router-dom";
 import Rating from "../../components/Sidebar/rating";
 
 const ProductCards = ({ products, GridList }) => {
-  // console.log(products.map(val => console.log(val.id)))
   return (
     <div
       className={`shop-product-wrap row justify-content-center ${
@@ -58,7 +55,7 @@ const ProductCards = ({ products, GridList }) => {
               </div>
             </div>
             <div className="product-content">
-            <Link to={`/shop/${product.id}`}>{product.name}</Link>
+              <Link to={`/shop/${product.id}`}>{product.name}</Link>
               <p className="productRating">
                 <Rating />
               </p>

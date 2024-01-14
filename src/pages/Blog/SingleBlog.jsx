@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect, useState } from "react";
 import Tags from "../Shop/Tags";
 import PageHeader from "../../components/PageHeader";
@@ -41,10 +40,7 @@ const SingleBlog = () => {
   console.log(result[0]);
   return (
     <div>
-      <PageHeader
-        title={"Single Blog Pages"}
-        curPage={"Blog / Blog Details"}
-      />
+      <PageHeader title={"Single Blog Pages"} curPage={"Blog / Blog Details"} />
       <div className="blog-section blog-single padding-tb section-bg">
         <div className="container">
           <div className="row justify-content-center">
@@ -65,9 +61,7 @@ const SingleBlog = () => {
                                 />
                               </div>
                               <div className="post-content">
-                                <h2>
-                                  {item.title}
-                                </h2>
+                                <h2>{item.title}</h2>
                                 <div className="meta-post">
                                   <ul className="lab-ul">
                                     <li>
@@ -164,7 +158,7 @@ const SingleBlog = () => {
                                     alt="video"
                                   />
                                   <a
-                                    href="https://youtu.be/2qWo6W5Wn8Q"
+                                    href="https://www.youtube.com/playlist?list=PL8oIoDAW0Z9SLqJJaK1HEFDuD8rJ-YZ3K"
                                     className="video-button popup"
                                     target="_blank"
                                   >
@@ -247,7 +241,7 @@ const SingleBlog = () => {
             <div className="col-lg-4 col-12">
               <aside>
                 <Tags />
-                <MostPopularPost/>
+                <MostPopularPost />
               </aside>
             </div>
           </div>
