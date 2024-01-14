@@ -108,9 +108,7 @@ const NavItems = () => {
                     <NavDropdown.Item href="/cart-page">
                       Shopping Cart
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">
-                      Profile
-                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/">Profile</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="/cart-page">Order</NavDropdown.Item>
                   </NavDropdown>
