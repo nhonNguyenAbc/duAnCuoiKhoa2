@@ -12,15 +12,15 @@ const tweetTitle = "Recent Tweets";
 const addressList = [
   {
     iconName: "icofont-google-map",
-    text: "New York, USA.",
+    text: "HCM, VietNam",
   },
   {
     iconName: "icofont-phone",
-    text: "+880 123 456 789",
+    text: "+84 028 3896 8641",
   },
   {
     iconName: "icofont-envelope",
-    text: "info@shopcart.com",
+    text: "nguyenthanhnhonabc@gmail.com",
   },
 ];
 
